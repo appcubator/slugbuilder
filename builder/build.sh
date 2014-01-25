@@ -47,7 +47,7 @@ function ensure_indent() {
 
 ## Load source from STDIN
 
-cat | tar -xC $build_root
+cat | tar -xmC $build_root
 
 ## Buildpack fixes
 
